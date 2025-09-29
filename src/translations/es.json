@@ -1,0 +1,70 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "reset": "Resetear",
+    "viewMore": "Ver Más",
+    "backToList": "Volver a la Lista",
+    "share": "Compartir",
+    "website": "Sitio Web",
+    "founded": "Fundada",
+    "location": "Ubicación",
+    "employees": "Empleados",
+    "funding": "Financiación",
+    "revenue": "Ingresos",
+    "category": "Categoría",
+    "tags": "Etiquetas"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "language": "Idioma",
+    "theme": "Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro"
+  },
+  "main": {
+    "title": "Descubre Startups Innovadoras",
+    "subtitle": "Explora una lista curada de startups con información detallada e insights",
+    "searchPlaceholder": "Buscar startups...",
+    "noResults": "No se encontraron startups que coincidan con tus criterios",
+    "showingResults": "Mostrando {{count}} startups"
+  },
+  "startup": {
+    "description": "Descripción",
+    "metrics": "Métricas Clave",
+    "contact": "Información de Contacto",
+    "socialMedia": "Redes Sociales",
+    "relatedStartups": "Startups Relacionadas",
+    "lastUpdated": "Última actualización: {{date}}",
+    "users": "Usuarios",
+    "growth": "Crecimiento",
+    "email": "Email",
+    "phone": "Teléfono"
+  },
+  "filters": {
+    "allCategories": "Todas las Categorías",
+    "sortBy": "Ordenar por",
+    "sortName": "Nombre",
+    "sortDate": "Fecha de Adición",
+    "sortCategory": "Categoría",
+    "ascending": "Ascendente",
+    "descending": "Descendente"
+  },
+  "errors": {
+    "startupNotFound": "Startup no encontrada",
+    "loadingFailed": "Error al cargar datos",
+    "networkError": "Ocurrió un error de red"
+  },
+  "footer": {
+    "description": "Descubre startups innovadoras con información detallada e insights",
+    "openSource": "Código Abierto",
+    "sourceCode": "Código Fuente",
+    "sponsor": "Patrocinar",
+    "builtWith": "Construido Con"
+  }
+}

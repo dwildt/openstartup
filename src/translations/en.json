@@ -1,0 +1,70 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "reset": "Reset",
+    "viewMore": "View More",
+    "backToList": "Back to List",
+    "share": "Share",
+    "website": "Website",
+    "founded": "Founded",
+    "location": "Location",
+    "employees": "Employees",
+    "funding": "Funding",
+    "revenue": "Revenue",
+    "category": "Category",
+    "tags": "Tags"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "main": {
+    "title": "Discover Innovative Startups",
+    "subtitle": "Explore a curated list of startups with detailed information and insights",
+    "searchPlaceholder": "Search startups...",
+    "noResults": "No startups found matching your criteria",
+    "showingResults": "Showing {{count}} startups"
+  },
+  "startup": {
+    "description": "Description",
+    "metrics": "Key Metrics",
+    "contact": "Contact Information",
+    "socialMedia": "Social Media",
+    "relatedStartups": "Related Startups",
+    "lastUpdated": "Last updated: {{date}}",
+    "users": "Users",
+    "growth": "Growth",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "filters": {
+    "allCategories": "All Categories",
+    "sortBy": "Sort by",
+    "sortName": "Name",
+    "sortDate": "Date Added",
+    "sortCategory": "Category",
+    "ascending": "Ascending",
+    "descending": "Descending"
+  },
+  "errors": {
+    "startupNotFound": "Startup not found",
+    "loadingFailed": "Failed to load data",
+    "networkError": "Network error occurred"
+  },
+  "footer": {
+    "description": "Discover innovative startups with detailed information and insights",
+    "openSource": "Open Source",
+    "sourceCode": "Source Code",
+    "sponsor": "Sponsor",
+    "builtWith": "Built With"
+  }
+}

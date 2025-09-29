@@ -1,0 +1,70 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Algo deu errado",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "reset": "Resetar",
+    "viewMore": "Ver Mais",
+    "backToList": "Voltar à Lista",
+    "share": "Compartilhar",
+    "website": "Site",
+    "founded": "Fundada",
+    "location": "Localização",
+    "employees": "Funcionários",
+    "funding": "Financiamento",
+    "revenue": "Receita",
+    "category": "Categoria",
+    "tags": "Tags"
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "language": "Idioma",
+    "theme": "Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro"
+  },
+  "main": {
+    "title": "Descubra Startups Inovadoras",
+    "subtitle": "Explore uma lista curada de startups com informações detalhadas e insights",
+    "searchPlaceholder": "Buscar startups...",
+    "noResults": "Nenhuma startup encontrada com seus critérios",
+    "showingResults": "Mostrando {{count}} startups"
+  },
+  "startup": {
+    "description": "Descrição",
+    "metrics": "Métricas Principais",
+    "contact": "Informações de Contato",
+    "socialMedia": "Redes Sociais",
+    "relatedStartups": "Startups Relacionadas",
+    "lastUpdated": "Última atualização: {{date}}",
+    "users": "Usuários",
+    "growth": "Crescimento",
+    "email": "Email",
+    "phone": "Telefone"
+  },
+  "filters": {
+    "allCategories": "Todas as Categorias",
+    "sortBy": "Ordenar por",
+    "sortName": "Nome",
+    "sortDate": "Data de Adição",
+    "sortCategory": "Categoria",
+    "ascending": "Crescente",
+    "descending": "Decrescente"
+  },
+  "errors": {
+    "startupNotFound": "Startup não encontrada",
+    "loadingFailed": "Falha ao carregar dados",
+    "networkError": "Erro de rede ocorreu"
+  },
+  "footer": {
+    "description": "Descubra startups inovadoras com informações detalhadas e insights",
+    "openSource": "Código Aberto",
+    "sourceCode": "Código Fonte",
+    "sponsor": "Patrocinar",
+    "builtWith": "Construído Com"
+  }
+}
