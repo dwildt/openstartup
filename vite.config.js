@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/openstartup/' : '/',
+  base: mode === 'production' ? '/openstartup/' : '/',
+  define: {
+    'process.env.NODE_ENV': JSON.stringify(mode)
+  },
   build: {
     outDir: 'dist',
     sourcemap: true
@@ -12,4 +15,4 @@ export default defineConfig({
     port: 3000,
     open: true
   }
-})
+}))
