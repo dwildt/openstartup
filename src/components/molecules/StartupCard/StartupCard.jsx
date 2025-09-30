@@ -5,6 +5,7 @@ import Button from '../../atoms/Button';
 import { useLanguage } from '../../../hooks/useLanguage';
 import { useTranslation } from '../../../utils/i18n.jsx';
 import { formatDate } from '../../../utils/data';
+import { getAssetPath } from '../../../utils/assets';
 import './StartupCard.css';
 
 function StartupCard({ startup, className = '', ...props }) {
@@ -28,7 +29,7 @@ function StartupCard({ startup, className = '', ...props }) {
       <div className="startup-card__header">
         {startup.logo && !logoError ? (
           <img
-            src={startup.logo}
+            src={getAssetPath(startup.logo)}
             alt={`${name} logo`}
             className="startup-card__logo"
             loading="lazy"
@@ -36,7 +37,7 @@ function StartupCard({ startup, className = '', ...props }) {
           />
         ) : (
           <img
-            src="/images/default-logo.svg"
+            src={getAssetPath('/images/default-logo.svg')}
             alt={`${name} logo`}
             className="startup-card__logo"
             loading="lazy"

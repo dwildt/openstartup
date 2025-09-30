@@ -9,6 +9,7 @@ import { useStartups, useStartupById, useRelatedStartups } from '../../hooks/use
 import { useLanguage } from '../../hooks/useLanguage';
 import { useTranslation } from '../../utils/i18n.jsx';
 import { formatDate, formatNumber } from '../../utils/data';
+import { getAssetPath } from '../../utils/assets';
 import './StartupPage.css';
 
 function StartupPage() {
@@ -99,14 +100,14 @@ function StartupPage() {
               <div className="startup-page__title-section">
                 {startup.logo && !logoError ? (
                   <img
-                    src={startup.logo}
+                    src={getAssetPath(startup.logo)}
                     alt={`${name} logo`}
                     className="startup-page__logo"
                     onError={handleLogoError}
                   />
                 ) : (
                   <img
-                    src="/images/default-logo.svg"
+                    src={getAssetPath('/images/default-logo.svg')}
                     alt={`${name} logo`}
                     className="startup-page__logo"
                   />

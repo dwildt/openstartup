@@ -5,10 +5,13 @@ import MainPage from './pages/MainPage/MainPage';
 import StartupPage from './pages/StartupPage/StartupPage';
 
 function App() {
+  // Use basename only in production for GitHub Pages
+  const basename = import.meta.env.PROD ? '/openstartup' : '';
+
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <Router>
+        <Router basename={basename}>
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/startup/:id" element={<StartupPage />} />

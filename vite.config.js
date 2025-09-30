@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/openstartup/',
+  base: process.env.NODE_ENV === 'production' ? '/openstartup/' : '/',
   build: {
     outDir: 'dist',
     sourcemap: true

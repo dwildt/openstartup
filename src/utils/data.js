@@ -1,6 +1,8 @@
+import { getAssetPath } from './assets.js';
+
 export async function fetchStartups() {
   try {
-    const response = await fetch('/data/startups.json');
+    const response = await fetch(getAssetPath('/data/startups.json'));
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
