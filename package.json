@@ -16,7 +16,8 @@
     "test:e2e": "cypress run",
     "test:e2e:open": "cypress open",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "validate-startup": "node scripts/validate-startup.js"
   },
   "dependencies": {
     "i18next": "^23.7.6",

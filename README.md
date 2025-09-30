@@ -292,12 +292,145 @@ The project includes:
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new features
-5. Ensure all tests pass
-6. Submit a pull request
+We welcome contributions to OpenStartup! Whether you want to add your startup to the platform or improve the codebase, here's how you can contribute.
+
+### 🏢 Adding Your Startup
+
+We've made it super easy to add new startups to the platform! Each startup is now stored as an individual JSON file, making contributions clean and conflict-free.
+
+#### Method 1: Pull Request (Recommended)
+
+1. **Fork the repository** and clone it locally
+2. **Create your startup data file**:
+   - Create a new file: `public/data/startups/{your-startup-slug}.json`
+   - Use the template from [`docs/STARTUP_TEMPLATE.md`](docs/STARTUP_TEMPLATE.md)
+   - Follow the naming convention: lowercase with hyphens (e.g., `my-awesome-startup.json`)
+
+3. **Register your startup**:
+   - Add your startup slug to the `STARTUP_SLUGS` array in `src/utils/data.js`
+   - Example: `'my-awesome-startup'`
+
+4. **Validate your data**:
+   ```bash
+   npm run validate-startup my-awesome-startup
+   ```
+
+5. **Test locally**:
+   ```bash
+   npm run dev
+   ```
+   Visit `http://localhost:3001` to see your startup listed
+
+6. **Submit a Pull Request**:
+   - Use title: "Add [Your Startup Name] to startup directory"
+   - Include a brief description of your startup in the PR description
+
+#### Method 2: GitHub Issue
+
+If you're not comfortable with Git/GitHub:
+
+1. **Open a new issue** with the title "Add New Startup: [Your Startup Name]"
+2. **Use the issue template** to provide all required information
+3. **Include all startup details** following the format in [`docs/STARTUP_TEMPLATE.md`](docs/STARTUP_TEMPLATE.md)
+4. **Our maintainers will create the JSON file** and add your startup to the platform
+
+### 📋 Startup Data Requirements
+
+#### Required Information
+- **Basic Info**: Name, description, short description
+- **Translations**: English, Portuguese, and Spanish for all text fields
+- **Contact**: At least an email address
+- **Category**: Technology category (AI, FinTech, HealthTech, etc.)
+
+#### Optional Information
+- Logo (use default if not available)
+- Website, social media links
+- Funding information, employee count
+- Key metrics (users, revenue, growth)
+- Founded year, location
+
+#### Validation Rules
+- **Slug format**: Lowercase with hyphens only (`my-startup-name`)
+- **Required languages**: English (en), Portuguese (pt), Spanish (es)
+- **URLs**: Must be valid and use HTTPS
+- **Tags**: Maximum 4 tags per language
+- **Logo**: SVG preferred, under 50KB
+
+### 🔧 Code Contributions
+
+#### For Developers
+
+1. **Fork and clone** the repository
+2. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Make your changes** following our coding standards:
+   - Follow the atomic design pattern
+   - Add tests for new features
+   - Update documentation as needed
+   - Follow ESLint and Prettier rules
+
+5. **Test your changes**:
+   ```bash
+   npm run test          # Run unit tests
+   npm run lint          # Check code quality
+   npm run build         # Ensure builds successfully
+   ```
+
+6. **Submit a Pull Request**:
+   - Clear title and description
+   - Reference any related issues
+   - Include screenshots for UI changes
+
+#### Development Standards
+- **Components**: Follow atomic design (atoms → molecules → organisms → templates → pages)
+- **Styling**: Use CSS variables for theming, mobile-first responsive design
+- **Internationalization**: Support EN, PT, ES languages
+- **Testing**: 80%+ test coverage, unit and integration tests
+- **Accessibility**: WCAG 2.1 AA compliance
+
+### 🐛 Bug Reports & Feature Requests
+
+1. **Search existing issues** first to avoid duplicates
+2. **Use issue templates** for consistency
+3. **Provide detailed information**:
+   - Steps to reproduce (for bugs)
+   - Expected vs actual behavior
+   - Browser/device information
+   - Screenshots if applicable
+
+### 📚 Documentation
+
+Help improve our documentation:
+- Fix typos or unclear instructions
+- Add examples or use cases
+- Translate content to other languages
+- Update outdated information
+
+### 🎯 Good First Issues
+
+New contributors can look for issues labeled:
+- `good first issue` - Perfect for beginners
+- `help wanted` - Community contributions welcome
+- `documentation` - Documentation improvements needed
+
+### 📞 Getting Help
+
+- **Questions**: Open a GitHub discussion
+- **Template help**: Check [`docs/STARTUP_TEMPLATE.md`](docs/STARTUP_TEMPLATE.md)
+- **Validation issues**: Run `npm run validate-startup {slug}`
+- **General support**: Create an issue with the "question" label
+
+### 🏆 Recognition
+
+All contributors are acknowledged in our contributors list. Startup submissions help build a valuable resource for the entrepreneurship community!
 
 ## 📄 License
 

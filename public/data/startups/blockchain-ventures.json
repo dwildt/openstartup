@@ -1,0 +1,48 @@
+{
+  "id": "blockchain-ventures",
+  "name": {
+    "en": "Blockchain Ventures",
+    "pt": "Blockchain Ventures",
+    "es": "Blockchain Ventures"
+  },
+  "description": {
+    "en": "Decentralized finance platform providing secure, transparent, and efficient cryptocurrency trading, lending, and staking services. Built on cutting-edge blockchain technology with enterprise-grade security and compliance features.",
+    "pt": "Plataforma de finanças descentralizadas fornecendo serviços seguros, transparentes e eficientes de negociação, empréstimo e staking de criptomoedas. Construída em tecnologia blockchain de ponta com segurança de nível empresarial e recursos de conformidade.",
+    "es": "Plataforma de finanzas descentralizadas que proporciona servicios seguros, transparentes y eficientes de comercio, préstamo y staking de criptomonedas. Construida sobre tecnología blockchain de vanguardia con seguridad de nivel empresarial y características de cumplimiento."
+  },
+  "shortDescription": {
+    "en": "Decentralized finance and crypto platform",
+    "pt": "Plataforma de finanças descentralizadas e cripto",
+    "es": "Plataforma de finanzas descentralizadas y cripto"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://blockchain-ventures.example.com",
+  "founded": "2020",
+  "category": {
+    "en": "Blockchain",
+    "pt": "Blockchain",
+    "es": "Blockchain"
+  },
+  "tags": {
+    "en": ["DeFi", "Cryptocurrency", "Blockchain", "Trading"],
+    "pt": ["DeFi", "Criptomoeda", "Blockchain", "Negociação"],
+    "es": ["DeFi", "Criptomoneda", "Blockchain", "Comercio"]
+  },
+  "location": "Singapore",
+  "employees": "60-80",
+  "funding": "$15M Series A",
+  "revenue": "$4M ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/blockchainvnt",
+    "linkedin": "https://linkedin.com/company/blockchain-ventures"
+  },
+  "metrics": {
+    "users": "30,000+",
+    "revenue": "$4M ARR",
+    "growth": "300% YoY"
+  },
+  "contact": {
+    "email": "contact@blockchain-ventures.example.com"
+  },
+  "lastUpdated": "2024-01-14T00:00:00.000Z"
+}

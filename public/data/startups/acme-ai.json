@@ -1,0 +1,50 @@
+{
+  "id": "acme-ai",
+  "name": {
+    "en": "Acme AI",
+    "pt": "Acme IA",
+    "es": "Acme IA"
+  },
+  "description": {
+    "en": "Revolutionary artificial intelligence platform that transforms how businesses automate their workflows. Our AI-powered solutions reduce manual work by 80% while increasing accuracy and efficiency across all departments.",
+    "pt": "Plataforma revolucionária de inteligência artificial que transforma como as empresas automatizam seus fluxos de trabalho. Nossas soluções alimentadas por IA reduzem o trabalho manual em 80% enquanto aumentam a precisão e eficiência em todos os departamentos.",
+    "es": "Plataforma revolucionaria de inteligencia artificial que transforma cómo las empresas automatizan sus flujos de trabajo. Nuestras soluciones impulsadas por IA reducen el trabajo manual en un 80% mientras aumentan la precisión y eficiencia en todos los departamentos."
+  },
+  "shortDescription": {
+    "en": "AI platform for workflow automation",
+    "pt": "Plataforma de IA para automação de fluxo de trabalho",
+    "es": "Plataforma de IA para automatización de flujo de trabajo"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://acme-ai.example.com",
+  "founded": "2022",
+  "category": {
+    "en": "Artificial Intelligence",
+    "pt": "Inteligência Artificial",
+    "es": "Inteligencia Artificial"
+  },
+  "tags": {
+    "en": ["AI", "Automation", "Machine Learning", "SaaS"],
+    "pt": ["IA", "Automação", "Aprendizado de Máquina", "SaaS"],
+    "es": ["IA", "Automatización", "Aprendizaje Automático", "SaaS"]
+  },
+  "location": "San Francisco, CA",
+  "employees": "50-100",
+  "funding": "$5M Series A",
+  "revenue": "$2M ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/acmeai",
+    "linkedin": "https://linkedin.com/company/acme-ai",
+    "github": "https://github.com/acme-ai"
+  },
+  "metrics": {
+    "users": "10,000+",
+    "revenue": "$2M ARR",
+    "growth": "150% YoY"
+  },
+  "contact": {
+    "email": "hello@acme-ai.example.com",
+    "phone": "+1 (555) 123-4567"
+  },
+  "lastUpdated": "2024-01-15T00:00:00.000Z"
+}

@@ -1,13 +1,38 @@
 import { getAssetPath } from './assets.js';
 
+// List of startup slugs - update this when adding new startups
+const STARTUP_SLUGS = [
+  'acme-ai',
+  'fintech-pro',
+  'healthtech-solutions',
+  'edtech-academy',
+  'greentech-innovations',
+  'blockchain-ventures'
+];
+
 export async function fetchStartups() {
   try {
-    const response = await fetch(getAssetPath('/data/startups.json'));
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    const startups = [];
+
+    // Fetch each startup file individually
+    for (const slug of STARTUP_SLUGS) {
+      try {
+        const response = await fetch(getAssetPath(`/data/startups/${slug}.json`));
+        if (!response.ok) {
+          // eslint-disable-next-line no-console
+          console.warn(`Failed to fetch startup ${slug}: ${response.status}`);
+          continue;
+        }
+        const startup = await response.json();
+        startups.push(startup);
+      } catch (error) {
+        // eslint-disable-next-line no-console
+        console.warn(`Error fetching startup ${slug}:`, error);
+        continue;
+      }
     }
-    const data = await response.json();
-    return data;
+
+    return startups;
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Error fetching startups:', error);
