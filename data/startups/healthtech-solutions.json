@@ -1,0 +1,49 @@
+{
+  "id": "healthtech-solutions",
+  "name": {
+    "en": "HealthTech Solutions",
+    "pt": "Soluções HealthTech",
+    "es": "Soluciones HealthTech"
+  },
+  "description": {
+    "en": "Innovative telemedicine platform connecting patients with healthcare providers through secure video consultations, AI-powered symptom assessment, and integrated health monitoring. Making healthcare accessible to everyone, everywhere.",
+    "pt": "Plataforma inovadora de telemedicina conectando pacientes com provedores de saúde através de consultas de vídeo seguras, avaliação de sintomas alimentada por IA e monitoramento de saúde integrado. Tornando cuidados de saúde acessíveis para todos, em qualquer lugar.",
+    "es": "Plataforma innovadora de telemedicina que conecta pacientes con proveedores de atención médica a través de consultas de video seguras, evaluación de síntomas impulsada por IA y monitoreo de salud integrado. Haciendo que la atención médica sea accesible para todos, en todas partes."
+  },
+  "shortDescription": {
+    "en": "Telemedicine and health monitoring platform",
+    "pt": "Plataforma de telemedicina e monitoramento de saúde",
+    "es": "Plataforma de telemedicina y monitoreo de salud"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://healthtech-solutions.example.com",
+  "founded": "2020",
+  "category": {
+    "en": "HealthTech",
+    "pt": "HealthTech",
+    "es": "HealthTech"
+  },
+  "tags": {
+    "en": ["Telemedicine", "Healthcare", "AI", "Remote Monitoring"],
+    "pt": ["Telemedicina", "Saúde", "IA", "Monitoramento Remoto"],
+    "es": ["Telemedicina", "Salud", "IA", "Monitoreo Remoto"]
+  },
+  "location": "Toronto, Canada",
+  "employees": "100-200",
+  "funding": "$12M Series B",
+  "revenue": "$5M ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/healthtechsol",
+    "linkedin": "https://linkedin.com/company/healthtech-solutions"
+  },
+  "metrics": {
+    "users": "50,000+",
+    "revenue": "$5M ARR",
+    "growth": "120% YoY"
+  },
+  "contact": {
+    "email": "info@healthtech-solutions.example.com",
+    "phone": "+1 (416) 555-0123"
+  },
+  "lastUpdated": "2024-01-20T00:00:00.000Z"
+}

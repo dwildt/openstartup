@@ -1,0 +1,49 @@
+{
+  "id": "greentech-innovations",
+  "name": {
+    "en": "GreenTech Innovations",
+    "pt": "Inovações GreenTech",
+    "es": "Innovaciones GreenTech"
+  },
+  "description": {
+    "en": "Sustainable technology company developing smart energy management systems for commercial buildings. Our IoT-enabled solutions reduce energy consumption by 40% while providing real-time monitoring and predictive maintenance capabilities.",
+    "pt": "Empresa de tecnologia sustentável desenvolvendo sistemas inteligentes de gestão de energia para edifícios comerciais. Nossas soluções habilitadas por IoT reduzem o consumo de energia em 40% enquanto fornecem monitoramento em tempo real e capacidades de manutenção preditiva.",
+    "es": "Empresa de tecnología sostenible que desarrolla sistemas inteligentes de gestión de energía para edificios comerciales. Nuestras soluciones habilitadas por IoT reducen el consumo de energía en un 40% mientras proporcionan monitoreo en tiempo real y capacidades de mantenimiento predictivo."
+  },
+  "shortDescription": {
+    "en": "Smart energy management for buildings",
+    "pt": "Gestão inteligente de energia para edifícios",
+    "es": "Gestión inteligente de energía para edificios"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://greentech-innovations.example.com",
+  "founded": "2021",
+  "category": {
+    "en": "GreenTech",
+    "pt": "GreenTech",
+    "es": "GreenTech"
+  },
+  "tags": {
+    "en": ["IoT", "Energy", "Sustainability", "Smart Buildings"],
+    "pt": ["IoT", "Energia", "Sustentabilidade", "Edifícios Inteligentes"],
+    "es": ["IoT", "Energía", "Sostenibilidad", "Edificios Inteligentes"]
+  },
+  "location": "Berlin, Germany",
+  "employees": "30-50",
+  "funding": "$4M Seed",
+  "revenue": "$1.2M ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/greentechinno",
+    "linkedin": "https://linkedin.com/company/greentech-innovations"
+  },
+  "metrics": {
+    "users": "200+ buildings",
+    "revenue": "$1.2M ARR",
+    "growth": "250% YoY"
+  },
+  "contact": {
+    "email": "hello@greentech-innovations.example.com",
+    "phone": "+49 30 1234567"
+  },
+  "lastUpdated": "2024-01-18T00:00:00.000Z"
+}

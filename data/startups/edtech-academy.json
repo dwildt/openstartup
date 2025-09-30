@@ -1,0 +1,48 @@
+{
+  "id": "edtech-academy",
+  "name": {
+    "en": "EdTech Academy",
+    "pt": "Academia EdTech",
+    "es": "Academia EdTech"
+  },
+  "description": {
+    "en": "Personalized online learning platform using adaptive AI to create custom curricula for students of all ages. Our platform adapts to individual learning styles and pace, ensuring optimal educational outcomes through data-driven insights.",
+    "pt": "Plataforma de aprendizagem online personalizada usando IA adaptativa para criar currículos customizados para estudantes de todas as idades. Nossa plataforma se adapta a estilos individuais de aprendizagem e ritmo, garantindo resultados educacionais ótimos através de insights baseados em dados.",
+    "es": "Plataforma de aprendizaje en línea personalizada que utiliza IA adaptativa para crear currículos personalizados para estudiantes de todas las edades. Nuestra plataforma se adapta a los estilos de aprendizaje individuales y el ritmo, asegurando resultados educativos óptimos a través de insights basados en datos."
+  },
+  "shortDescription": {
+    "en": "AI-powered personalized learning platform",
+    "pt": "Plataforma de aprendizagem personalizada alimentada por IA",
+    "es": "Plataforma de aprendizaje personalizada impulsada por IA"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://edtech-academy.example.com",
+  "founded": "2019",
+  "category": {
+    "en": "EdTech",
+    "pt": "EdTech",
+    "es": "EdTech"
+  },
+  "tags": {
+    "en": ["Education", "AI", "E-learning", "Personalization"],
+    "pt": ["Educação", "IA", "E-learning", "Personalização"],
+    "es": ["Educación", "IA", "E-learning", "Personalización"]
+  },
+  "location": "Austin, TX",
+  "employees": "75-100",
+  "funding": "$8M Series A",
+  "revenue": "$3M ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/edtechacademy",
+    "linkedin": "https://linkedin.com/company/edtech-academy"
+  },
+  "metrics": {
+    "users": "25,000+",
+    "revenue": "$3M ARR",
+    "growth": "180% YoY"
+  },
+  "contact": {
+    "email": "learn@edtech-academy.example.com"
+  },
+  "lastUpdated": "2024-01-12T00:00:00.000Z"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fintech-pro",
+  "name": {
+    "en": "FinTech Pro",
+    "pt": "FinTech Pro",
+    "es": "FinTech Pro"
+  },
+  "description": {
+    "en": "Comprehensive financial technology solution for small and medium businesses. We provide digital banking, payment processing, and financial analytics in one unified platform, helping businesses manage their finances more effectively.",
+    "pt": "Solução abrangente de tecnologia financeira para pequenas e médias empresas. Fornecemos banking digital, processamento de pagamentos e análise financeira em uma plataforma unificada, ajudando empresas a gerenciar suas finanças mais efetivamente.",
+    "es": "Solución integral de tecnología financiera para pequeñas y medianas empresas. Proporcionamos banca digital, procesamiento de pagos y análisis financiero en una plataforma unificada, ayudando a las empresas a gestionar sus finanzas de manera más efectiva."
+  },
+  "shortDescription": {
+    "en": "Digital banking and payments for SMBs",
+    "pt": "Banking digital e pagamentos para PMEs",
+    "es": "Banca digital y pagos para PYMEs"
+  },
+  "logo": "/images/default-logo.svg",
+  "website": "https://fintech-pro.example.com",
+  "founded": "2021",
+  "category": {
+    "en": "FinTech",
+    "pt": "FinTech",
+    "es": "FinTech"
+  },
+  "tags": {
+    "en": ["Banking", "Payments", "B2B", "Financial Services"],
+    "pt": ["Banking", "Pagamentos", "B2B", "Serviços Financeiros"],
+    "es": ["Banca", "Pagos", "B2B", "Servicios Financieros"]
+  },
+  "location": "London, UK",
+  "employees": "25-50",
+  "funding": "$3M Seed",
+  "revenue": "$800K ARR",
+  "socialMedia": {
+    "twitter": "https://twitter.com/fintechpro",
+    "linkedin": "https://linkedin.com/company/fintech-pro"
+  },
+  "metrics": {
+    "users": "5,000+",
+    "revenue": "$800K ARR",
+    "growth": "200% YoY"
+  },
+  "contact": {
+    "email": "contact@fintech-pro.example.com"
+  },
+  "lastUpdated": "2024-01-10T00:00:00.000Z"
+}
