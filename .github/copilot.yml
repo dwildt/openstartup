@@ -80,12 +80,7 @@ exclude:
 # Language-specific settings
 languages:
   javascript:
-    # Follow existing ESLint configuration
-    style: eslint
-    formatter: prettier
-
-  jsx:
-    # React components
+    # Follow existing ESLint configuration (handles JSX as well)
     style: eslint
     formatter: prettier
 
@@ -210,9 +205,9 @@ dependencies:
   # Update strategy
   updates: conservative
 
-  # Avoid adding
+  # Avoid adding (with rationale)
   avoid:
-    - 'CSS-in-JS libraries (styled-components, emotion)'
-    - 'Alternative state management (Redux, MobX) unless necessary'
-    - 'UI component libraries that conflict with custom design'
-    - 'Heavy dependencies that increase bundle size unnecessarily'
+    - 'CSS-in-JS libraries (styled-components, emotion) - conflicts with existing CSS variable approach and theming system'
+    - 'Alternative state management (Redux, MobX) - adds complexity; use React Context unless truly needed'
+    - 'UI component libraries (Material-UI, Ant Design) - conflicts with custom atomic design system'
+    - 'Heavy dependencies (moment.js, lodash) - prefer native alternatives or smaller packages to minimize bundle size'
