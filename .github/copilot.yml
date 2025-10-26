@@ -1,0 +1,213 @@
+# GitHub Copilot Configuration for OpenStartup
+# This file configures GitHub Copilot workspace settings
+
+# Project context and important files
+context:
+  # Core configuration files
+  - path: package.json
+    purpose: Project dependencies and scripts
+
+  - path: vite.config.js
+    purpose: Vite build configuration
+
+  - path: .eslintrc.json
+    purpose: ESLint rules and code quality standards
+
+  - path: .prettierrc
+    purpose: Code formatting rules
+
+  - path: jest.config.js
+    purpose: Jest testing configuration
+
+  - path: babel.config.cjs
+    purpose: Babel transpilation settings
+
+  # Documentation
+  - path: README.md
+    purpose: Project overview and setup instructions
+
+  - path: docs/STARTUP_TEMPLATE.md
+    purpose: Template for adding new startups
+
+  # Key source files
+  - path: src/App.jsx
+    purpose: Main application component
+
+  - path: src/main.jsx
+    purpose: Application entry point
+
+  - path: src/utils/data.js
+    purpose: Startup data management and STARTUP_SLUGS registry
+
+  - path: src/utils/ThemeContext.js
+    purpose: Theme context and management
+
+  - path: src/translations/
+    purpose: Internationalization files (EN, PT, ES)
+
+  - path: src/styles/
+    purpose: Global styles and CSS variables
+
+# File patterns for Copilot to consider
+patterns:
+  # Include all source files
+  - 'src/**/*.{js,jsx}'
+  - 'src/**/*.css'
+
+  # Include tests
+  - 'src/**/*.test.{js,jsx}'
+
+  # Include configuration
+  - '*.config.{js,cjs,mjs}'
+  - '.*rc'
+  - '.*rc.{json,js,cjs,mjs,yml,yaml}'
+
+  # Include documentation
+  - '*.md'
+  - 'docs/**/*.md'
+
+# Exclude patterns
+exclude:
+  - 'node_modules/**'
+  - 'dist/**'
+  - 'build/**'
+  - '.git/**'
+  - 'coverage/**'
+  - '*.min.js'
+  - '*.min.css'
+  - '.cache/**'
+
+# Language-specific settings
+languages:
+  javascript:
+    # Follow existing ESLint configuration (handles JSX as well)
+    style: eslint
+    formatter: prettier
+
+  css:
+    # CSS with variables
+    formatter: prettier
+
+  json:
+    formatter: prettier
+
+  markdown:
+    formatter: prettier
+
+# Code generation preferences
+preferences:
+  # Component creation
+  components:
+    # Use functional components with hooks
+    style: functional
+    # Follow atomic design pattern
+    architecture: atomic
+    # Include translations
+    i18n: required
+    # Include tests
+    tests: required
+
+  # Styling preferences
+  styling:
+    # Use CSS modules pattern (ComponentName.css)
+    method: css-files
+    # Use CSS variables
+    variables: true
+    # Mobile-first approach
+    responsive: mobile-first
+
+  # Testing preferences
+  testing:
+    framework: jest
+    library: react-testing-library
+    coverage: 80
+
+  # Code quality
+  quality:
+    linter: eslint
+    formatter: prettier
+    # Follow existing configurations
+    strict: true
+
+# Project-specific guidelines
+guidelines:
+  # Atomic design structure
+  - 'Use atomic design pattern: atoms → molecules → organisms → templates → pages'
+
+  # Internationalization
+  - 'All user-facing text must support EN, PT, and ES languages'
+  - 'Use react-i18next for translations'
+
+  # Styling
+  - 'Use CSS variables from src/styles/variables.css'
+  - 'Support both light and dark themes'
+  - 'Follow mobile-first responsive design'
+
+  # Component structure
+  - 'Each component in its own directory with .jsx, .css, and .test.jsx files'
+  - 'Use PascalCase for component names'
+  - 'Use kebab-case for CSS classes with component prefix'
+
+  # Code quality
+  - 'Write tests for all new components'
+  - 'Follow ESLint and Prettier configurations'
+  - 'Target 80%+ test coverage'
+
+  # Accessibility
+  - 'Use semantic HTML elements'
+  - 'Ensure WCAG 2.1 AA compliance'
+  - 'Support keyboard navigation'
+
+  # Best practices
+  - 'Keep components small and focused (single responsibility)'
+  - 'Reuse existing atoms and molecules'
+  - 'Never hardcode user-facing strings'
+  - 'Optimize for performance and accessibility'
+
+# Documentation requirements
+documentation:
+  # JSDoc for complex functions
+  - 'Use JSDoc comments for complex logic'
+
+  # README updates
+  - 'Update README.md when adding major features'
+
+  # Component documentation
+  - 'Include usage examples in component files when helpful'
+
+  # Test documentation
+  - 'Add descriptive test names'
+  - 'Group related tests in describe blocks'
+
+# Workflow integration
+workflow:
+  # Pre-commit checks
+  checks:
+    - lint
+    - format
+    - test
+
+  # Build verification
+  build:
+    command: 'npm run build'
+    verify: true
+
+  # Testing
+  test:
+    unit: 'npm run test'
+    coverage: true
+
+# Dependencies management
+dependencies:
+  # Package manager
+  manager: npm
+
+  # Update strategy
+  updates: conservative
+
+  # Avoid adding (with rationale)
+  avoid:
+    - 'CSS-in-JS libraries (styled-components, emotion) - conflicts with existing CSS variable approach and theming system'
+    - 'Alternative state management (Redux, MobX) - adds complexity; use React Context unless truly needed'
+    - 'UI component libraries (Material-UI, Ant Design) - conflicts with custom atomic design system'
+    - 'Heavy dependencies (moment.js, lodash) - prefer native alternatives or smaller packages to minimize bundle size'
